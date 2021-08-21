@@ -1,0 +1,125 @@
+body{
+  width: 1366px;
+  margin: 100px auto;
+}
+
+/* ヘッダー開始 */
+
+.header-wrapper{
+  height: 80px;
+  background: #EFA358;
+  color: #FFFFFF;
+
+}
+
+.logo{
+  margin-left: 207px;
+}
+
+.top-wrapper{
+  width:1000px;
+  display: flex;
+  /* justify-content: space-between; */
+  /* padding-right: 183px;
+  padding-right: 300px; */
+}
+
+.main-nav{
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  margin-top: 31px;
+  list-style: none;
+padding-left: 617px;
+font: normal normal normal 20px/23px Arial;
+}
+
+
+
+.main-nav li{
+width: 92px;
+}
+
+/* ヘッダー終わり */
+
+
+/* メインコンテンツ開始 */
+.home-content{
+  width: 1000px;
+  height: 518px;
+  margin: 0 auto;
+}
+
+.home-ttl{
+  width: 116px;
+  font-size: 32px;
+  margin: 40px auto;
+  font-family: Arial, Bold;
+  color: #555555;
+}
+
+.page-content{
+  display: flex;
+}
+
+.page-content img{
+padding-right: 60px;
+}
+
+.content h3{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 32px;
+  font-family: Arial, Bold;
+  color: #555555;
+}
+
+.content p{
+  font-family: Arial, 
+}
+
+
+/* ボタン */
+button{
+  background-color: #EFA358;
+  font: normal normal bold 16px/24px Arial;
+color: #FFFFFF; 
+width: 197px;
+height: 47px;
+border-radius: 10px;
+border: none;
+margin-top:10px;
+} 
+
+button:hover{
+  opacity: 0.5;
+}
+
+
+/* メインコンテンツ終わり */
+
+/* フッター開始 */
+
+footer{
+  height: 48px;
+  background-color: #EFA358;
+  color: #FFFFFF;
+  padding: 26px 0;
+}
+
+.footer-ttl{
+  text-align: center;
+  font: normal normal bold 24px/24px Arial;
+}
+
+.footer-ttl p{
+margin-top: 0;
+margin-bottom: 0;
+}
+
+
+.copy-right{
+  font: normal normal normal 12px/24px Arial;
+color: #FFFFFF;
+text-align: center;
+}
